@@ -1,4 +1,4 @@
-/etc/apt/sources.list.d
-/etc/apt/preferences.d
-/etc/apt/package-sideload-create.d
-/etc/apt/trusted.gpg.d
+/etc/phosh
+/etc/udev/rules.d
+/usr/bin
+/usr/share/glib-2.0/schemas
