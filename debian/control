@@ -1,0 +1,19 @@
+Source: adaptation-oneplus-oneplus6
+Maintainer: TQMatvey <maybeetube@gmail.com>
+Section: metapackages
+Priority: optional
+Build-Depends: debhelper (>= 10),
+               debhelper-compat (= 13),
+Standards-Version: 4.5.0.3
+
+Package: adaptation-oneplus-oneplus6
+Architecture: arm64
+Depends: ${misc:Depends},
+         adaptation-hybris-api28-phone,
+         adaptation-oneplus-oneplus6-configs (= ${binary:Version}),
+Description: Community adaptation for oneplus-oneplus6 - metapackage
+
+Package: adaptation-oneplus-oneplus6-configs
+Architecture: arm64
+Depends: ${misc:Depends},
+Description: Community adaptation for oneplus-oneplus6 - adaptation configurations
