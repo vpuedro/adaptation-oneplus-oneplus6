@@ -1,0 +1,5 @@
+[org.gnome.desktop.interface]
+show-battery-percentage = true
+
+[sm.puri.phosh.notifications]
+wakeup-screen-triggers = ['any']
