@@ -1,0 +1,11 @@
+[Unit]
+Description=Enable OTG on OP6
+Requires=lxc@android.service
+Before=phosh.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/sh -c "echo 1 > /sys/class/power_supply/usb/otg_switch"
+
+[Install]
+WantedBy=graphical.target
