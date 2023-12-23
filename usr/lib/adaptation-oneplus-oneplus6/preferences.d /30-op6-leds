@@ -1,0 +1,3 @@
+Package: feedbackd feedbackd-common gir1.2-lfb-0.0 libfeedback-dev 
+Pin: release l=Droidian\ (droidian-feedbackd-trixie-op6-leds\ channel)
+Pin-Priority: 1003
