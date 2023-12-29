@@ -1,0 +1,3 @@
+/usr/lib/adaptation-oneplus-oneplus6/sources.list.d/op6-leds.list /etc/apt/sources.list.d/op6-leds.list
+/usr/lib/adaptation-oneplus-oneplus6/preferences.d/30-op6-leds /etc/apt/preferences.d/30-op6-leds
+/usr/lib/adaptation-oneplus-oneplus6/package-sideload-create.d/op6-leds /etc/package-sideload-create.d/op6-leds
