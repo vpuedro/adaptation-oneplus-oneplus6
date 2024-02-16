@@ -8,3 +8,4 @@ override_dh_installsystemd:
 	dh_installsystemd -padaptation-oneplus-oneplus6-configs --name=double-tap double-tap.service --no-start
 	dh_installsystemd -padaptation-oneplus-oneplus6-configs --name=op6-otg op6-otg.service --no-start
 	dh_installsystemd -padaptation-oneplus-oneplus6-configs --name=op6-getcutout op6-getcutout.service --no-start
+	dh_installsystemd -padaptation-oneplus-oneplus6-configs --name=op6-brightness brightness.service --no-start
